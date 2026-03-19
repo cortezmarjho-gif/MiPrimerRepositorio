@@ -11,6 +11,7 @@ Te regalo las piezas que a mi alma conforman, que nunca nada te haga falta a ti.
 
 ##computadora -> que variable queres imprimir
 ## como sabe, por el metodo "print"
+
 # print() -> es la función que se encarga de imprimir pantalla
 # void -> no devuelve nada
 # objeto -> devuelve un tipo de dato
@@ -32,6 +33,10 @@ cancion_Mayusculas = cancion.upper()
 ## string .lower
 
 cancion_minuscula = cancion.lower()
-print(cancion_minuscula)
+##print(cancion_minuscula)
 
 ## tiene que ingresar 100 nombres en mayuscula
+mensaje = "hOlA kACe progRMando o qUe HaCe"
+## Capitalize a que la primera letra de cada palabra sea mayuscula
+mensajeCorrecto = mensaje.capitalize()
+print(mensajeCorrecto)
